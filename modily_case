@@ -1,0 +1,37 @@
+test_SurfaceTexture_VideoPlackback 			renderApp		test_SurfaceTexture_VideoPlackback 未能匹配
+	                                   			
+test_VK_ubo_random					mrb system		可能log已经发生改变
+test_progressivedownload_networkconnectionlost
+test_ImageEdit_BMP_SaveEdit 		----		mrb acrn display
+test_AppTransparency_ImageViewing	----		mrb acrn display
+test_WallpaperSet_JPEGImage		----		mrb acrn display 	(没有remount fastboot unlock后 reboot 后ui没有判断点击)
+test_imageedit_addeffects_setwallpaper			mrb acrn display
+test_Display_AllAppsOnHomeScreen			mrb display 		有一个app需要更新可找手动聊聊
+test_MoreThan10BMPImages				mrb display		修改代码
+test_imageview_wbmp_fullscreen_rotate			mrb display 		这个问一下要不要去掉
+test_Cardview_Recents					mrb display 		分析一下
+test_progressivedownload_networkconnectionlost		mrb renderApp		这个case需要重写
+test_renderscript_photovisualizer			mrb renderApp		是否要更新apk
+test_HWComposer_2_0_Color_inversion			mrb renderApp		渲染后的色彩怎么区分
+test_EnableGFXBurst					mrb renderApp 		这个值有点不对一会看看，多跑两遍就过了，再对一下
+test_Screenshot_VideoPlayback				mrb display 		为什么video不能播放，我这可以，奇怪啊
+##extend_chrome_impl.py					mrb display O 		在O上太慢了
+test_imageview_wbmp_fullscreen_rotate			mrb display O		屏幕旋转有点意思
+test_EnableGFXBurst					mrb randerApp goden_peek 	这个case可以改改
+test_HWComposer_2_0_Color_inversion
+
+
+test_MDAPI_GfxDrv_DriverAcceptance 这个case是要在sos中测试的
+
+
+faillog
+	 File "/home/cti/workspace/atomjob/package/ACS/acs/src/_ExecutionConfig/OTC/TC/TP/testlib/graphics/photos_impl.py", line 572, in play_video_command
+    assert PHOTOS_APK_CLASSNAME in get_current_focus_window(), "Video not started."
+
+
+
+test_Clone_mode_support_for_video 			kbl_nuc 很有意思研究一下
+test_videoplayback_forwardrewind			kbl_nuc 研究一下
+test_WallpaperSet_JPEGImage				kbl_nuc 研究一下
+test_Framebuffer_Compression_blt			klb_nuc 研究一下
+
