@@ -1,0 +1,13 @@
+Q 版本需要修改的case
+
+test_Clone_mode_support_for_images					apl display
+test_Clone_mode_support_for_screensaver					apl display
+test_HDMI_1_4								apl display					
+test_HDMI_SleepMode_5Minutes						apl display	
+test_ImageEdit_AddVignetteEffect_BlueImageEditingAndSwitching
+test_Clone_mode_support_for_screensaver
+test_Secondary_display_support_for_images
+test_Secondary_Display_support_ideal_after_multiple_reboot
+test_Secondary_Display_suspend_resume_support
+test_Secondary_Display_switching_from_secondary_to_clone_mode
+test_picsartstudio

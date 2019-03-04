@@ -1,0 +1,12 @@
+Q 版本需要修改的case
+
+test_Clone_mode_support_for_images					apl display
+test_Clone_mode_support_for_screensaver					apl display		在p上能过 setting 变了
+test_HDMI_1_4								apl display		apidemo ui问题	过		
+test_HDMI_SleepMode_5Minutes						apl display		时间有点久过会分析 chrome 有点问题 
+test_ImageEdit_AddVignetteEffect_BlueImageEditingAndSwitching		等会看代码		d().press.recent() 没有反映了
+test_Secondary_display_support_for_images							apidemo ui问题
+test_Secondary_Display_support_ideal_after_multiple_reboot
+test_Secondary_Display_suspend_resume_support
+test_Secondary_Display_switching_from_secondary_to_clone_mode
+test_picsartstudio
